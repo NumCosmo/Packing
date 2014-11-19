@@ -7,11 +7,11 @@ version             2.4.2
 categories          science
 platforms           darwin
 license             GPL
-maintainers         CdM
+maintainers         vitenti
 description         NLOpt
 long_description    NLOpt
 homepage            http://ab-initio.mit.edu/wiki/index.php/NLopt
-master_sites        http://ab-initio.mit.edu/wiki/index.php/NLopt
+master_sites        http://ab-initio.mit.edu/nlopt/
 
 checksums           rmd160  851cdb65ce4de04007df1c038c566d0be8d9917b \
                     sha256  8099633de9d71cbc06cd435da993eb424bbcdbded8f803cdaa9fb8c6e09c8e89

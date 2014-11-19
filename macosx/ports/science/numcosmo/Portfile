@@ -3,18 +3,18 @@
 PortSystem          1.0
 
 name                numcosmo
-version             0.11.0
+version             0.12.0
+distfiles           ${distname}rc7${extract.suffix}
 categories          science
 platforms           darwin
 license             GPL
-maintainers         CdM
+maintainers         vitenti
 description         Numcosmo
 long_description    Numcosmo
 homepage            http://www.nongnu.org/numcosmo/
-master_sites        http://savannah.nongnu.org/projects/numcosmo/
+master_sites        http://download.savannah.gnu.org/releases/numcosmo/
 
-checksums           rmd160  ed8156eebb78beaed72e5ede4eb2fdfa78d396d7 \
-                    sha256  901459a258d084e8deaafe5ef5b094ff272687f393cbf2a652e71d488f431f6b
+checksums           sha256 681bbf0081c2818b6e69417902b3bcde02bcc8854ca6256275c156a84b49d372
 
 depends_lib         port:glib2-devel \
                     port:atlas \
