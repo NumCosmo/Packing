@@ -1,0 +1,38 @@
+# $Id$
+
+PortSystem          1.0
+
+name                numcosmo
+version             0.11.0
+categories          science
+platforms           darwin
+license             GPL
+maintainers         CdM
+description         Numcosmo
+long_description    Numcosmo
+homepage            http://www.nongnu.org/numcosmo/
+master_sites        http://savannah.nongnu.org/projects/numcosmo/
+
+checksums           rmd160  ed8156eebb78beaed72e5ede4eb2fdfa78d396d7 \
+                    sha256  901459a258d084e8deaafe5ef5b094ff272687f393cbf2a652e71d488f431f6b
+
+depends_lib         port:glib2-devel \
+                    port:atlas \
+                    port:gmp \
+                    port:mpfr \
+                    port:fftw-3 \
+                    port:py-gobject \
+                    port:cfitsio \
+                    port:gobject-introspection \
+                    port:gsl \
+                    port:pkgconfig \
+                    port:py-gobject \
+                    port:sqlite3 \
+                    port:sundials \
+		    port:nlopt
+
+configure.args      --enable-introspection \
+                    --mandir=${prefix}/share/man
+
+configure.compiler  macports-gcc-4.8
+

@@ -10,8 +10,9 @@ For manual package creation, see below.
 Directories:
 ------------
 * `rpm/` Spec file for rpm creation.
-* `deb/` Files for debian package creation
-* `arch` PKGBUILD file for pacman packaging
+* `deb/` Files for debian package creation.
+* `arch/` PKGBUILD file for pacman packaging.
+* `macosx` MacPort packaging files.
 
 OpenSUSE
 --------
@@ -27,3 +28,9 @@ ArchLinux
 ---------
 
 Arch Linux instructions ...
+
+MacPort
+-------
+
+MacPort instructions ...
+
