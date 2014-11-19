@@ -1,0 +1,6 @@
+usr/include/numcosmo
+usr/lib/libnumcosmo.so
+usr/lib/libnumcosmo.a
+usr/lib/pkgconfig/*
+usr/share/gtk-doc/html/numcosmo
+usr/share/gir-1.0/*

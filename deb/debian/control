@@ -1,0 +1,37 @@
+Source: numcosmo
+Section: libdevel
+Priority: extra
+Maintainer: Sandro Dias Pinto Vitenti <sandro@isoftware.com.br>
+Build-Depends: cdbs, debhelper (>= 4.1.16)
+Standards-Version: 3.9.3
+
+Package: numcosmo
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Numerical Cosmology - NumCosmo
+ The NumCosmo is an free software C library whose main purposes are to test
+ cosmological models using observational data and to provide a set of tools
+ to perform cosmological calculations.
+
+Package: libnumcosmo-dev
+Architecture: any
+Depends: numcosmo (= ${binary:Version})
+Description: NumCosmo development files
+ The NumCosmo is an free software C library whose main purposes are to test
+ cosmological models using observational data and to provide a set of tools
+ to perform cosmological calculations.
+ .
+ This package contains the development headers for the numcosmo
+
+Package: gir1.2-numcosmo-1.0
+Architecture: any
+Section: libs
+Depends: ${misc:Depends},
+         ${gir:Depends}
+Description: Numerical Cosmology - NumCosmo - gir bindings
+ The NumCosmo is an free software C library whose main purposes are to test
+ cosmological models using observational data and to provide a set of tools
+ to perform cosmological calculations.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.

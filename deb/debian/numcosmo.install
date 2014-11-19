@@ -1,0 +1,4 @@
+usr/bin/*
+usr/lib/libnumcosmo.so.0.*
+usr/lib/libnumcosmo.so.0
+usr/share/numcosmo-0.12.0/*

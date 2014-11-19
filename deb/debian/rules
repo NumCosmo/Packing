@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_HARDENING=1
+export DEB_BUILD_HARDENING_FORMAT=0
+                                
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/autotools.mk
+
+DEB_CONFIGURE_EXTRA_FLAGS := --enable-shared --with-thread-pool-max=4 --enable-introspection
+DEB_MAKE_CHECK_TARGET := check

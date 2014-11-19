@@ -1,0 +1,16 @@
+-------------------------------------------------------------------
+Mon Oct 29 04:05:01 UTC 2012 - sandro@isoftware.com.br
+
+- Added backward compat for older fftw.
+
+-------------------------------------------------------------------
+Mon Oct 29 03:27:24 UTC 2012 - sandro@isoftware.com.br
+
+- Removed installed INSTALL from upstream.
+
+-------------------------------------------------------------------
+Mon Oct 29 03:07:47 UTC 2012 - sandro@isoftware.com.br
+
+- Fixed GPL string (GPL-3.0).
+
+
