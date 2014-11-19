@@ -12,7 +12,7 @@ Directories:
 * `rpm/` Spec file for rpm creation.
 * `deb/` Files for debian package creation.
 * `arch/` PKGBUILD file for pacman packaging.
-* `macosx` MacPort packaging files.
+* `macosx/` MacPort packaging files.
 
 OpenSUSE
 --------
@@ -32,5 +32,12 @@ Arch Linux instructions ...
 MacPort
 -------
 
-MacPort instructions ...
+NumCosmo can be installed in a MacOSX using the MacPorts. 
+To this end the user must first make a clone of the [NumCosmo/Packing](https://github.com/NumCosmo/Packing) 
+repository. The local repository will be in Packing/macosx/ports, this directory must be [added to the
+list of local repositories](https://guide.macports.org/#development.local-repositories). 
 
+After added the local repository the command: `port install numcosmo`, will install NumCosmo and all its
+dependencies.
+
+[Problems/Suggestions](https://github.com/NumCosmo/NumCosmo/issues).
